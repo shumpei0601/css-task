@@ -1,5 +1,3 @@
-
-
 .parent__content {
   position: relative;
 }
@@ -40,20 +38,16 @@ nav {
   right: 0px;
 }
 
-
-.column {
-  display: grid;
-  grid-template-rows: 100px 200px 50px 50px 150px 50px;
-  grid-template-columns: 500px 300px 350px 350px;
+.parent {
+  
 }
-
-
 
 .parent__img {
   width: 550px;
   height: 400px;
- grid-column: 3/5;
- grid-row: 2/5;
+  display: block;
+  margin-left: auto;
+  padding-top: 100px;
   z-index: 2;
 }
 
@@ -61,17 +55,19 @@ nav {
   font-size: 40px;
   font-weight: bold;
   white-space: nowrap;
-  grid-column: 1/2;
-  grid-row: 3/5;
+  display: block;
+  position: relative;
+  top: -150px;
 }
 
 .parent__box {
   background-color: #000080;
-  width: 900px;
+  width: 70%;
   height: 200px;
-  grid-column: 1/4;
-  grid-row: 5/6;
   z-index: 1;
+  display: block;
+  position: relative;
+  top: -150px;
 }
 
 *{outline:1px solid #0000FF
